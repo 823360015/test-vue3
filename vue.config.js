@@ -15,7 +15,7 @@ let scssVariables = require("./src/styles/variables.scss.js");
 module.exports = {
     publicPath: "",
     productionSourceMap: false,
-
+    lintOnSave: false,
     devServer: {
         before: app => {
             if (setting.dev_mock) {
